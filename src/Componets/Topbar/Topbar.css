@@ -1,0 +1,80 @@
+/* Existing styles */
+.topbar-main {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+}
+
+/* Light mode styling */
+.topbar-main.light {
+    background-color: white;
+    color: black; /* Text color for light mode */
+}
+
+/* Dark mode styling */
+.topbar-main.dark {
+    background-color: black;
+    color: white; /* Text color for dark mode */
+}
+
+.navbar-contan {
+    width: 85%; /* Adjust this to your desired width */
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between sections */
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.topbar-left p {
+    margin: 0; /* Remove default margin from the paragraph */
+    margin-right: 10px; /* Add space between "sd" and the image */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topbar-left img {
+    width: 35px;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.topbar-right .bookmark-dark {
+    width: 25px;
+}
+.topbar-right .bookmark-light {
+    width: 22px;
+}
+
+.topbar-right .l-mode {
+    width: 20px;
+    padding: 5px;
+    border: solid rgba(176, 176, 176, 0.638) 0.1px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.r-2{
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar-right .n-mode {
+    width: 30px;
+    border: solid white 0.1px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.topbar-right .top-text {
+    margin: 0 10px; /* Space between text and images */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
